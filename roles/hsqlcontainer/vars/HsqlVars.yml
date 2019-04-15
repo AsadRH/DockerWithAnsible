@@ -1,0 +1,12 @@
+---
+    image_name: hsqlfair 
+    image_tag: v1
+    dockerfile_path: /opt/hsqlbranch/hsql
+    log_path: /opt/log
+    container_name: hsqllatest
+    container_port: "9000:9000"
+    container_img: hsqlfair
+    repo: "git@bitbucket.org:faircg/fair-internalsystems.git"
+    repo_Save_dest: /opt/hsqlbranch
+    key_file_path: /home/ec2-user/.ssh/id_rsa
+    repo_version: feature/hsql
